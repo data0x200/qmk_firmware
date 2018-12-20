@@ -64,7 +64,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
       CTLTB,     A,     S,     D,     F,     G,                      H,     J,     K,     L,  SCLN,  QUOT,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMM,   DOT,  SLSH,  RSFT,\
+       LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMM,   DOT,  SLSH,  RBRC, \
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                   LOWER,  LGUI,   SPC,      ENT,  RALT, RAISE \
                               //`--------------------'  `--------------------'
@@ -86,7 +86,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------.                ,-----------------------------------------.
         ESC, XXXXX,  PGUP, XXXXX, XXXXX, XXXXX,                  XXXXX,  PSCR,  SLCK,  MINS,   EQL,  BSLS,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      CTLTB,  HOME,  PGDN,   END, XXXXX,   TAB,                    DEL,  BSPC,   INS,    UP,  RBRC, XXXXX,\
+      CTLTB,  HOME,  PGDN,   END, XXXXX,   TAB,                    DEL,  BSPC,   INS,    UP, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LSFT, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,   ENT,  LEFT,  DOWN, RIGHT, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
