@@ -84,13 +84,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT_kc(
   //,-----------------------------------------.                ,-----------------------------------------.
-        ESC, XXXXX,  PGUP, XXXXX, XXXXX, XXXXX,                  XXXXX,  PSCR,  SLCK,  MINS,   EQL,  BSLS,\
+        ESC, XXXXX,  PGUP, XXXXX,    UP, XXXXX,                  RIGHT,  PSCR,  SLCK,  MINS,   EQL, XXXXX, \
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      CTLTB,  HOME,  PGDN,   END, XXXXX,   TAB,                    DEL,  BSPC,   INS,    UP, XXXXX, XXXXX,\
+      CTLTB,  HOME,  PGDN,   END, XXXXX,   TAB,                    DEL,  BSPC,   INS,  DOWN, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,   ENT,  LEFT,  DOWN, RIGHT, XXXXX,\
+       LSFT, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   LEFT,   ENT, XXXXX, XXXXX, XXXXX,  BSLS,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                  LOWER,  LGUI,   SPC,      ENT,  RALT, RAISE \
+                                  LOWER,  LGUI,   SPC,      ENT,  RALT, RAISE
                               //`--------------------'  `--------------------'
   ),
 
