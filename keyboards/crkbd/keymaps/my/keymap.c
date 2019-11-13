@@ -56,6 +56,8 @@ enum macro_keycodes {
 #define KC_CTLTB CTL_T(KC_TAB)
 #define KC_GUIEI GUI_T(KC_LANG2)
 #define KC_ALTKN ALT_T(KC_LANG1)
+#define KC_ALTAB RALT(KC_TAB)
+#define KC_SATAB LSFT(RALT(KC_TAB))
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT_kc( \
@@ -86,7 +88,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------.                ,-----------------------------------------.
         ESC, XXXXX,  PGUP, XXXXX,    UP, XXXXX,                  RIGHT,  PSCR,  SLCK,  MINS,   EQL,  BSLS, \
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LCTL,  HOME,  PGDN,   END, XXXXX,   TAB,                    DEL,  BSPC,   INS,  DOWN, XXXXX, XXXXX,\
+       LCTL,  HOME,  PGDN,   END,   TAB,   TAB,                    DEL,  BSPC,   INS,  DOWN, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LSFT, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   LEFT,   ENT, XXXXX, XXXXX, XXXXX,  BSLS,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
@@ -98,7 +100,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------.                ,-----------------------------------------.
         RST,  LRST, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LTOG,  LHUI,  LSAI,  LVAI, XXXXX, XXXXX,                  XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
+       LTOG,  LHUI,  LSAI,  LVAI, SATAB, XXXXX,                  XXXXX, ALTAB, XXXXX, XXXXX, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LMOD,  LHUD,  LSAD,  LVAD, XXXXX, XXXXX,                  XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
